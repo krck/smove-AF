@@ -3,7 +3,7 @@
 <b> About </b> <br>
 This Firmware is used to control an ATMEL Atmega1284P on the MELZI V2.0 Board. <br>
 It can be used with the corresponding Desktop Application smove <br>
-https://github.com/krck/smove <br> <br>
+https://github.com/krck/smove <br>
 
 The Firmware is written in C and uses the AVR Libraries. <br>
 It accepts the standard G and M codes and is planned to <br>
