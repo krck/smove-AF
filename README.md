@@ -7,7 +7,7 @@ https://github.com/krck/smove <br>
 
 The Firmware is written in C and uses the AVR Libraries. <br>
 It accepts the standard G and M codes and is planned to <br>
-give 3D-Printers a from CNC-Machines known very direct <br>
+give 3D-Printers a, from CNC-Machines known, very direct <br>
 programming Interface, when used together with smove. <br>
 
 <b> TODO </b>
