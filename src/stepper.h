@@ -30,7 +30,7 @@
 #include "config.h"
 
 void stepper_init() {
-	// Set all Stepper Bits to output
+	// Set Enable-Disable Motor Bits to output
 	SET_BIT(DDRD, N_XYE_ENABLE);
 	SET_BIT(DDRA, N_Z_ENABLE);
 	disable_steppers();
@@ -44,7 +44,7 @@ void stepper_init() {
 	SET_BIT(DDRC, Y_STEP);
 	CLEAR_BIT(PORTC, Y_DIR);
 	CLEAR_BIT(PORTC, Y_STEP);
-	// Y Stepper: Set bits to output and clear STEP / DIR
+	// Z Stepper: Set bits to output and clear STEP / DIR
 	SET_BIT(DDRB, Z_DIR);
 	SET_BIT(DDRB, Z_STEP);
 	CLEAR_BIT(PORTB, Z_DIR);
