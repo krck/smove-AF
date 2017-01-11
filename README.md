@@ -1,16 +1,19 @@
-<h1> smove-AF (ATMEL Firmware) </h1>
+smove-AF (ATMEL Firmware)
+========
 
-<b> About </b> <br>
-This Firmware is used to control an ATMEL Atmega1284P on the MELZI V2.0 Board. <br>
-It can be used with the corresponding Desktop Application smove <br>
-https://github.com/krck/smove <br>
+This is a small (work in progress) 3D Printer Firmware, designed for an ATMEL Atmega1284P on the MELZI V2.0 Board. 
+It can be controlled with the corresponding Desktop Application [smove](https://github.com/krck/smove).
 
-The Firmware is written in C and uses the AVR Libraries. <br>
-It accepts the standard G and M codes and is planned to <br>
-give 3D-Printers a, from CNC-Machines known, very direct <br>
-programming Interface, when used together with smove. <br>
+About
+--------
 
-<b> TODO </b>
+The Firmware is written in C with the Atmel Studio 7.0 and uses the AVR Libraries.
+It accepts the standard G and M codes and is planned to give 3D-Printers a, from CNC-Machines known, very direct 
+programming Interface, when used together with the smove desktop application.
+
+TODO (next few steps)
+--------
+
 - [ ] “goto_MACHINE_ZERO” function: move axis simultaneously
 - [x] Add an “arc_motion” function
 - [ ] Debug "arc_motion" function
