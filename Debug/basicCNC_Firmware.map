@@ -913,18 +913,18 @@ END GROUP
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x484 src/main.o
 
-.debug_line     0x00000000      0xbc6
+.debug_line     0x00000000      0xbcf
  *(.debug_line .debug_line.* .debug_line_end)
- .debug_line    0x00000000      0xbc6 src/main.o
+ .debug_line    0x00000000      0xbcf src/main.o
 
 .debug_frame    0x00000000      0x498
  *(.debug_frame)
  .debug_frame   0x00000000      0x498 src/main.o
 
-.debug_str      0x00000000      0x5fa
+.debug_str      0x00000000      0x603
  *(.debug_str)
- .debug_str     0x00000000      0x5fa src/main.o
-                                0x65d (size before relaxing)
+ .debug_str     0x00000000      0x603 src/main.o
+                                0x666 (size before relaxing)
 
 .debug_loc      0x00000000     0x1588
  *(.debug_loc)
@@ -954,5 +954,5 @@ END GROUP
 
 .debug_macro
  *(.debug_macro)
-OUTPUT(smove-AF.elf elf32-avr)
+OUTPUT(basicCNC_Firmware.elf elf32-avr)
 LOAD linker stubs
